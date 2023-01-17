@@ -1,0 +1,34 @@
+
+
+.jumbotron {
+    padding-top: 2rem;
+    background-color: #1e1f20;
+}
+.display-4  {
+    color: rgb(255, 255, 255);
+    font-style: bold;
+}
+.lead {
+    color: rgb(255, 255, 255);
+    font-style: bold;
+}
+#projects {
+    background-color: #1e1f20;
+    color: white;
+
+}
+
+.card {
+    background-color: #1e1f20;
+}
+.card-text {
+    background-color: rgb(145, 142, 142);
+    margin-top: 1rem;
+}
+.col {
+    margin-bottom: 2rem;
+}
+
+section {
+    padding-top: 5rem;
+}
