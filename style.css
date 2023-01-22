@@ -2,7 +2,8 @@
 
 .jumbotron {
     padding-top: 2rem;
-    background-color: #1e1f20;
+    background-color: #eeff00;
+    
 }
 .display-4  {
     color: rgb(255, 255, 255);
@@ -33,4 +34,49 @@ section {
     padding-top: 5rem;
 }
 
+.tulisan {
+    font-size: large;
+    
+}
+
+#projects {
+    background-color: #eeff00;
+}
+
+.card-body {
+    background-color: #eeff00;
+}
+
+.card-text {
+    background-color: #eeff00;
+    color: black;
+}
+
+.gambar-1 {
+    background-color: #eeff00;
+}
+
+.footer {
+    background-color: #eeff00;
+}
+
+.text-1 {
+    color: black;
+}
+.text-2 {
+    color: black;
+}
+
+.text-3 {
+    color: black;
+}
+
+.gallery-img {
+    width: 100%;
+
+}
+
+#gallery .row > * {
+    padding: 0;
+}
 
