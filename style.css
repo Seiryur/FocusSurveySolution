@@ -1,82 +1,169 @@
-
-
 .jumbotron {
-    padding-top: 2rem;
-    background-color: #eeff00;
-    
+  padding-top: 2rem;
+  background-color: #eeff00;
 }
-.display-4  {
-    color: rgb(255, 255, 255);
-    font-style: bold;
+.display-4 {
+  color: rgb(255, 255, 255);
+  font-style: bold;
 }
 .lead {
-    color: rgb(255, 255, 255);
-    font-style: bold;
+  color: rgb(255, 255, 255);
+  font-style: bold;
 }
 #projects {
-    background-color: #1e1f20;
-    color: white;
-
+  background-color: #1e1f20;
+  color: white;
 }
 
 .card {
-    background-color: #1e1f20;
+  background-color: #1e1f20;
 }
 .card-text {
-    background-color: rgb(145, 142, 142);
-    margin-top: 1rem;
+  background-color: rgb(145, 142, 142);
+  margin-top: 1rem;
 }
 .col {
-    margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 section {
-    padding-top: 5rem;
+  padding-top: 5rem;
 }
 
 .tulisan {
-    font-size: large;
-    
+  font-size: large;
 }
 
 #projects {
-    background-color: #eeff00;
+  background-color: #eeff00;
 }
 
 .card-body {
-    background-color: #eeff00;
+  background-color: #eeff00;
 }
 
 .card-text {
-    background-color: #eeff00;
-    color: black;
+  background-color: #eeff00;
+  color: black;
 }
 
 .gambar-1 {
-    background-color: #eeff00;
+  background-color: #eeff00;
 }
 
 .footer {
-    background-color: #eeff00;
+  background-color: #eeff00;
 }
 
 .text-1 {
-    color: black;
+  color: black;
 }
 .text-2 {
-    color: black;
+  color: black;
 }
 
 .text-3 {
-    color: black;
+  color: black;
 }
 
 .gallery-img {
-    width: 100%;
-
+  width: 100%;
 }
 
 #gallery .row > * {
-    padding: 0;
+  padding: 0;
 }
 
+.text-5 {
+  color: black;
+}
+
+/* my keyboard section */
+
+.barang-box {
+  position: relative;
+  background-color: #eeff00;
+  border-radius: 10px;
+  height: 500px;
+  transform-style: preserve-3d;
+}
+.barang-box::before {
+  content: 'MY';
+  position: absolute;
+  color: white;
+  font-size: 6em;
+  font-weight: bold;
+  font-style: italic;
+  top: 30px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.barang-box:hover::before {
+  opacity: 0.2;
+}
+
+.barang-box::after {
+  content: 'best';
+  position: absolute;
+  color: white;
+  font-size: 4.3em;
+  font-weight: bold;
+  font-style: italic;
+  top: 350px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.barang-box:hover::after {
+  opacity: 0.5;
+}
+
+.alat-name {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  color: black;
+  text-align: center;
+  font-size: 2em;
+  opacity: 0;
+  transform: translate3d(0, 0, 50px);
+  transition: 0.5s;
+}
+
+.barang-box:hover .alat-name {
+  top: 20px;
+  opacity: 1;
+}
+
+.alat-detail-button {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate3d(-50%, 0, 100px);
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.barang-box:hover .alat-detail-button {
+  opacity: 1;
+  bottom: 20px;
+}
+
+.barang-1 {
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  transform: translate3d(-50%, -52%, 80px);
+  max-width: 200px;
+  transition: 0.5s;
+  z-index: 10;
+}
+
+.barang-box:hover .barang-1 {
+  transform: translate3d(-50%, -52%, 100px) rotate(5deg) scale(1.2);
+}
